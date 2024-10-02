@@ -144,6 +144,8 @@ def test do
 end
 ```
 
+Note: since macros are resolved at compilation, for this example to show the expected behaviour the environment variable needs to be appropriately set during compilation time.
+
 ## Debugging
 
 Okay, right now we know how to use `quote/2`, `unquote/1` and write macros.
